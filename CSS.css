@@ -1,0 +1,48 @@
+body{ 
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url("image.png");
+    }
+ul{
+    border: 0;
+    margin: 0;
+    list-style-type:none ;
+    /* background-color: rgb(63, 58, 58); */
+    background-color: rgb(77, 59, 93);
+    color: rgb(230, 207, 207);
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li:hover {
+    background-color:green;
+    color: rgb(246, 240, 240);
+}
+.dropdown {
+    display: none;
+}
+
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -0.29cm;
+    margin-top: 0.27cm;
+}
+.dropdown ul {
+    margin: 0;
+    padding: 0;
+}
+.dropdown ul li {
+    display: block;
+}
+.dropdown2{
+    display: none;
+}
+.dropdown ul li:hover .dropdown2{
+    display: block;
+    position: absolute;
+    margin-left: 3.7cm;
+    margin-top: -0.75cm;
+}
